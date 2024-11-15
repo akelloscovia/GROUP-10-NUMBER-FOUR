@@ -1,0 +1,36 @@
+ body{
+ background-color: blanchedalmond;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+form{
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    text-align:center ;
+}
+form input [type="username"]
+form input [type="email"]
+form input [type="password"]
+{
+   width:100%;
+   padding:10px ;
+}
+button{
+    width: 10%;
+    padding: 12px;
+    border-radius:4px;
+    size: 16px;
+}
+button:hover{
+    background-color: darkorange;
+}
+
+
+
